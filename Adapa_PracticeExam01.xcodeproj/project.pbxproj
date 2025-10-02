@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7F28AD5E2E8EC5FA00CE7099 /* Exceptions for "Adapa_PracticeExam01" folder in "Adapa_PracticeExam01" target */ = {
+		7F28AD5E2E8EC5FA00CE7099 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,24 +40,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7F28AD382E8EC5F800CE7099 /* Adapa_PracticeExam01 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7F28AD5E2E8EC5FA00CE7099 /* Exceptions for "Adapa_PracticeExam01" folder in "Adapa_PracticeExam01" target */,
-			);
-			path = Adapa_PracticeExam01;
-			sourceTree = "<group>";
-		};
-		7F28AD4F2E8EC5FA00CE7099 /* Adapa_PracticeExam01Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Adapa_PracticeExam01Tests;
-			sourceTree = "<group>";
-		};
-		7F28AD592E8EC5FA00CE7099 /* Adapa_PracticeExam01UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Adapa_PracticeExam01UITests;
-			sourceTree = "<group>";
-		};
+		7F28AD382E8EC5F800CE7099 /* Adapa_PracticeExam01 */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7F28AD5E2E8EC5FA00CE7099 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Adapa_PracticeExam01; sourceTree = "<group>"; };
+		7F28AD4F2E8EC5FA00CE7099 /* Adapa_PracticeExam01Tests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Adapa_PracticeExam01Tests; sourceTree = "<group>"; };
+		7F28AD592E8EC5FA00CE7099 /* Adapa_PracticeExam01UITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Adapa_PracticeExam01UITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +185,7 @@
 				};
 			};
 			buildConfigurationList = 7F28AD312E8EC5F800CE7099 /* Build configuration list for PBXProject "Adapa_PracticeExam01" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +194,6 @@
 			);
 			mainGroup = 7F28AD2D2E8EC5F800CE7099;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 7F28AD372E8EC5F800CE7099 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -296,6 +281,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +313,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
