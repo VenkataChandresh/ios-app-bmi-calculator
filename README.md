@@ -1,7 +1,6 @@
 # 📱 iOS App - BMI Calculator
 
 A simple **Body Mass Index (BMI) Calculator** iOS app built in **Swift (UIKit)**.  
-This project was created as part of a practice exam for iOS App Development.
 
 ---
 
@@ -19,7 +18,7 @@ This project was created as part of a practice exam for iOS App Development.
 
 - Swift
 - UIKit
-- Xcode
+
 
 ---
 
